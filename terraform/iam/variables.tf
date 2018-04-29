@@ -11,5 +11,5 @@ variable "path" {
 
 variable "aws_iam_policy" {
   description = "Name of the policy ARN"
-  default     = "arn:aws:iam::YOUR_ACCOUNT_NUMBER:policy/-s3-policy"
+  default     = "arn:aws:iam::YOUR_ACCOUNT_NUMBER:policy/s3-policy"
 }
